@@ -290,8 +290,18 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
+function addArtist(arr){
+    arr.push(
+      {
+        id: 20,
+        name: "John Iannuzzi",
+        years: "1991 - 3/7/2021",
+        genre: "Web Design",
+        Nationality: "American",
+        Bio: "lorem ipsum"
+      }
+    )
+    return arr;
   }
 
   
