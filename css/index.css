@@ -156,5 +156,9 @@ button:hover{
 
     .title-container div {	
        	width:90%;
+        height:40vh;
+    }
+    .title-container div h1 {
+        font-size:4rem;
     }	
 }
